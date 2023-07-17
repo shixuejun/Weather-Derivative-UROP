@@ -1,0 +1,28 @@
+Collect data from MetOffice
+Set up Conda environment
+
+Research weather derivatives
+    Weather Derivatives provide hedging against non-catestrophic weather risks. (1)
+
+    First we focus on climate modelling then on derivative pricing
+
+
+    Climate modelling
+        Distinction between quant research in academia vs in industry
+        Account for the distance between the weather recording stations and location of the contract holder
+        Use Gaussian processes, maybe encode uncertainty due to the distance into the model
+        Use parameteric time series models
+        Can also apply Monte Carlo Simulation of weather events to test performance of model
+
+        Time Series Model
+        Stochastic differential equation Model - Requires seasonal modelling of the variance/volatility of temperature
+        Gaussian Process Model
+
+
+    Pricing
+        What we use the climate models for will be determined by the our chosen underlying for our derivative contracts 
+        HDD/CDD call with cap, so number of degree days minus a strike price
+
+
+Risk management of climate impact for tourism operators: An empirical analysis on ski resorts
+https://pdf.sciencedirectassets.com/271716/1-s2.0-S0261517719X00060/1-s2.0-S0261517719302092/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjENT%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIQCSJcr%2BXqJrFzhL2gApNVFhQ8ah8eq4uCLj83piZ6eQkgIgPF1Wodv53Qq30s2wQ10Y48xC6YgsBC%2FqswYl%2FRVWpz0qsgUIXRAFGgwwNTkwMDM1NDY4NjUiDFqRmBrosS6nSZusoSqPBaGvNEzRCoU6g7DV6xb%2FF2DUQAd0otitGGZRS1IUrZzNb5dCWKpc9GospGPRs6h4t2QmUrntEsaSmx2oNqNc%2Bas2Y0ny%2F%2FIiAuI7WMar1Fy4bgmFEmOnAhykxHsm7Pt8JJc6CiWBxKUIkrTFLRzkldWQtVZVJyp3QWZK8Va5r9A%2BS1DZc7b2b4pkOUBTfHeh6v9olItyO7%2FlPJCHRin6hFRsIXRNBYa7wP6Ido39CCHfokK%2BZ5wjGaRmlTTuAtoJ4QaMqBNJbdrxsdS93QbdAZNCFnParzrKW6%2FjlgyjboDKjSBtU6snG9Bzof77OEp%2BGkjUpEDA1HYGhP7s4N8rAgAoa%2BXWZtkiTyE7hG60QsKpwoMXKXyUG5NaAvpmVVPseeK6Nw%2FIom%2BmbTWvu%2BFAN0qZk8qb4POL4P7Rv7YCEBF13dNB9l%2FMjqLR2M6M78cJU9tXNbvpGkISyms6XikH8PeDJn0iIr0MbBQUmNJY1P085xmBRVQeZKj0%2BuHIWCGn0ZxvYTWhgoDL0lN7%2Fp3HFFhnf7cY3jUyDGnLgRgv7hEd%2FVIrWV5Mi%2BD3dFASrgEU9n0qVonDPVNjx%2FPgNuhWitJWKIMednNTIsqEIoRowEWTaw6GKO%2BjTaIrrszQnAPZ63ECmNj9bsLk1T6%2BD6btNmAjuZzzSm%2FdYlAHQ1Ohlqjiw1LGlV6MvOBGWGRcbJds82RVCW9HCV%2Fv6HGSPBGk0%2BM3GX1W8V3uaQOdICCkRsLU3EIT5TKXJYiMuubXNkrW63rf9B9lSVZ3p2EmxqAU8%2FJj1PsipzUvN5GS7M78p6HSEpAZ7jGrC0kmFgU0IGETt8MBAM4jv%2BLkAi2Iy5sadynOtX2ULvp%2Fn8zQohGl7MAw69nUpQY6sQFA5EKAkB%2FTENQtk0HMPoKbhU3Xz7dua1%2BUHgC7%2BmjSxIjPnoIO7kNGTZsvz7ADdNPTON2IntwQFCS4tqo%2Fd3bH%2BhvtnBw3M0%2BmPZ%2BzzbagfqSGZ4%2BWpF8l2VwGgqLCVDaNAX9D5GekVbSBmyn1KFR6zgEKiI85oYbs7xyLzR2jpjGM418nMQFOJoSwXZ6%2FJcaU45ArvzYwf%2Bs4IqInrDD9rBMErrSJ0vW5bWPKbNt1%2FIc%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20230717T133221Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTYQZYPNJVQ%2F20230717%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=28f0a571f3129aeb62c4fcf61a24c51657f5a57d0b4b34963fccc5f47c30f404&hash=cec289d7bf1177b5ad45b5caebd01f3c811bca8bec64a8812b1d0924e808d987&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S0261517719302092&tid=spdf-248eecbc-ea4b-443b-b64a-7299bd46495c&sid=51c4c169824dc14b9c295e13ba2273e8ab83gxrqb&type=client&tsoh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&ua=1e03560257530259065951&rr=7e82d9b648e2ac9e&cc=de
