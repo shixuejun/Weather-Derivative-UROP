@@ -10,6 +10,7 @@ Research weather derivatives
     Climate modelling
         Distinction between quant research in academia vs in industry
         Account for the distance between the weather recording stations and location of the contract holder
+            We can actually quantify this as MetOffice data is on a 1km square precision
         Use Gaussian processes, maybe encode uncertainty due to the distance into the model
         Use parameteric time series models
         Can also apply Monte Carlo Simulation of weather events to test performance of model
